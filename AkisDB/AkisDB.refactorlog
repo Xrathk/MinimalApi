@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="858792f8-2cd4-4eff-8cc0-8cab3b9faec8" ChangeDateTime="11/14/2022 12:45:53">
+    <Property Name="ElementName" Value="[dbo].[UsersAdditionalInfo].[Country]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UsersAdditionalInfo]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DateOfBirth" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6003873b-722c-4827-bc1c-1590ef6f2edd" ChangeDateTime="11/14/2022 12:47:45">
+    <Property Name="ElementName" Value="[dbo].[UsersAdditionalInfo].[Job]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UsersAdditionalInfo]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Height" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0bbe2967-7157-4bd9-a7a1-5b262844864e" ChangeDateTime="11/14/2022 12:48:15">
+    <Property Name="ElementName" Value="[dbo].[UsersAdditionalInfo].[YearsOfExperience]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UsersAdditionalInfo]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Weight" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="bc9223a3-aff9-4ce3-845c-31990a2564a9" ChangeDateTime="11/14/2022 12:49:09">
+    <Property Name="ElementName" Value="[dbo].[UsersAdditionalInfo].[Address]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UsersAdditionalInfo]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Gender" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9eb2490a-8459-474e-a678-1e03dc1c941a" ChangeDateTime="11/14/2022 13:14:04">
+    <Property Name="ElementName" Value="[dbo].[JobSectors].[SectorTitle]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[JobSectors]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SectorName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="bc65baeb-717a-4844-abde-fe2fb392744d" ChangeDateTime="11/14/2022 20:48:58">
+    <Property Name="ElementName" Value="[dbo].[UsersAdditionalInfo].[PlanetOfOrigin]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UsersAdditionalInfo]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PlanetOfOriginId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ed8a48fb-d5a2-4173-bf51-89bca158fbed" ChangeDateTime="11/14/2022 20:49:12">
+    <Property Name="ElementName" Value="[dbo].[UserJobs].[Sector]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UserJobs]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SectorId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c35db94f-8bd7-4866-a965-faf47321194a" ChangeDateTime="11/14/2022 20:49:27">
+    <Property Name="ElementName" Value="[dbo].[UserAddresses].[Planet]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UserAddresses]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PlanetId" />
+  </Operation>
+</Operations>
